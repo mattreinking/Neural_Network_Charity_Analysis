@@ -11,12 +11,16 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
 ## Results
 
 ### Data Preprocessing
-- What variable(s) are considered the target(s) for your model?
+- What variable(s) are considered the target(s) for your model?  
+    The 'IS_SUCCESSFUL' column is the variable that is targeted for my model. 
   
-- What variable(s) are considered to be the features for your model?
+- What variable(s) are considered to be the features for your model?  
+  ![image](https://user-images.githubusercontent.com/86776606/199859460-52b2f7ef-b9eb-412c-9de2-181c060b9d57.png)  
+   All of the variables listed in the picture above are the variables being considered formy model.
   
-- What variable(s) are neither targets nor features, and should be removed from the input data?
-  
+- What variable(s) are neither targets nor features, and should be removed from the input data?  
+ ![image](https://user-images.githubusercontent.com/86776606/199859293-2ce19776-23f6-4155-88f8-adce7f0c4725.png)  
+  'EIN' and 'NAME' are the variables that are removed from the input data.
 
 ### Compiling, Training, and Evaluating the Model
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
